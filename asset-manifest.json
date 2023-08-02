@@ -1,14 +1,37 @@
 {
   "files": {
-    "main.css": "/static/css/main.01bc343e.css",
-    "main.js": "/static/js/main.39be0d97.js",
-    "static/media/cat.gif": "/static/media/cat.e2f6c274c688e3023832.gif",
+    "main.css": "/static/css/main.bfe9421c.css",
+    "main.js": "/static/js/main.8aa5c63b.js",
+    "static/media/UX-Video-Hero.mp4": "/static/media/UX-Video-Hero.6562d7ba65f0717de52e.mp4",
+    "static/media/gradientBG.png": "/static/media/gradientBG.62d5e1c0083c0ce051a6.png",
+    "static/media/CCL-2023-pg-8.png": "/static/media/CCL-2023-pg-8.f6195f56de5ff31485c5.png",
+    "static/media/CCL-2023-pg-32.png": "/static/media/CCL-2023-pg-32.63cb9a1c8ca05d49298d.png",
+    "static/media/ux-design1.png": "/static/media/ux-design1.31370460e592454b80b4.png",
+    "static/media/CCL-2023-pg-22.png": "/static/media/CCL-2023-pg-22.5211c40bb2d8c97d4b41.png",
+    "static/media/CCL-2023-pg-14.png": "/static/media/CCL-2023-pg-14.f08021dc346dc5fda128.png",
+    "static/media/CCL-2023-pg-24.png": "/static/media/CCL-2023-pg-24.9390577b313d30545776.png",
+    "static/media/CCL-2023-pg-118.png": "/static/media/CCL-2023-pg-118.fca9c58cf0670db4c6d3.png",
+    "static/media/CCL-2023-pg-10.png": "/static/media/CCL-2023-pg-10.28bf403ad3e6963d8079.png",
+    "static/media/CCL-2023-pg-122.png": "/static/media/CCL-2023-pg-122.a9906f935c393f0fdcb9.png",
+    "static/media/ux-design2.png": "/static/media/ux-design2.dcae07cc4287bba32041.png",
+    "static/media/CCL-2023-pg-4.png": "/static/media/CCL-2023-pg-4.b61722d6bb82609a1a3a.png",
+    "static/media/sketches.png": "/static/media/sketches.83c33340ec33f8d89d9a.png",
+    "static/media/CCL-2023-pg-52.png": "/static/media/CCL-2023-pg-52.0fbe468079d25e035876.png",
+    "static/media/CCL-2023-pg-54.png": "/static/media/CCL-2023-pg-54.0039c5effa4f4c84725a.png",
+    "static/media/Flowershot.jpeg": "/static/media/Flowershot.cb4b1d683cded2e1ac6e.jpeg",
+    "static/media/flow-diagram-for-mobile.png": "/static/media/flow-diagram-for-mobile.1541bffb125387d7e929.png",
+    "static/media/affinity-diagram.png": "/static/media/affinity-diagram.f717ffa0725c38557c42.png",
+    "static/media/customer-journey-map.png": "/static/media/customer-journey-map.dac6ad8f0db691a5cc27.png",
+    "static/media/design-process-icons.png": "/static/media/design-process-icons.ce8ffcb6f5ab425a01b5.png",
+    "static/media/usability-test_column2.png": "/static/media/usability-test_column2.9be1fa20b4d36d568bae.png",
+    "static/media/usability-test_column1.png": "/static/media/usability-test_column1.ac19b217767c835fbc4b.png",
     "index.html": "/index.html",
-    "main.01bc343e.css.map": "/static/css/main.01bc343e.css.map",
-    "main.39be0d97.js.map": "/static/js/main.39be0d97.js.map"
+    "static/media/linkedin-icon.svg": "/static/media/linkedin-icon.5ebe01976930b876a5847ce3463f59f8.svg",
+    "main.bfe9421c.css.map": "/static/css/main.bfe9421c.css.map",
+    "main.8aa5c63b.js.map": "/static/js/main.8aa5c63b.js.map"
   },
   "entrypoints": [
-    "static/css/main.01bc343e.css",
-    "static/js/main.39be0d97.js"
+    "static/css/main.bfe9421c.css",
+    "static/js/main.8aa5c63b.js"
   ]
 }
