@@ -45,7 +45,7 @@ const data = {
   },
   visualDesign: {
     heading: 'Transforming Research Insights into Visual Design Concepts.',
-    para: 'This flow diagram highlights the user booking process for the ‘Hotel X’ booking app and reflects the thorough research and analysis that went into creating a smooth user experience. After digging deep into user insights I was able to get a clear understanding of what users love (and hate!) about the booking process on similar apps. Armed with this valuable information, I crafted a booking flow that ticked all the right boxes, making it easy and enjoyable for users to book their perfect stay away. ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@'
+    para: 'Transforming research insights into visual design concepts for a hotel booking app involves a thorough and iterative process, aligning user needs with visually captivating solutions. By analyzing user feedback and preferences, designers brainstorm concepts that streamline search filters, simplify booking processes, and offer personalized recommendations. Through wireframes, prototypes, and user testing, the interface is optimized for intuitive navigation, inclusive accessibility, and responsiveness across devices. Collaborating with industry experts and stakeholders ensures a user-centered approach, resulting in a sophisticated app with elegant aesthetics, enticing imagery, and a seamless user flow that immerses travelers in a stress-free booking experience, exceeding their expectations and satisfying their needs effortlessly.'
   },
   projectOverviewOne: {
     heading: "Project Overview",
