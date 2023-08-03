@@ -105,8 +105,8 @@ const data = {
     subHeading: 'Demo'
   },
   projectOverviewCCL: {
-    heading: 'Heading',
-    para: 'PARAGRAPH PARAGRAPH PARAGRAPH'
+    heading: 'Call Caterlink LTD',
+    para: 'Product Catalogue'
   }, 
   featureOne: {
     heading: 'Hotel Booking App',
@@ -119,7 +119,7 @@ const data = {
   featureTwo: {
     heading: 'Product Catalogue',
     project: 'Call Caterlink LTD', 
-    para: 'Research and Design proposal for a hotel booking app £££££££££££££££££.',
+    para: 'Research and Design with company brand guidelines to create an annual catalogue.',
     footer: 'User Research, Graphic Design, Branding, Photography',
     path: 'CCL_ProductCatalogue',
     alt: 'Graphic Design feature image'
