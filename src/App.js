@@ -7,6 +7,8 @@ import { theme } from './GlobalStyles/theme';
 import { Main, ProjectUXDesign, CCLProjectCatalogue } from './Containers';
 import { ScrollToTop } from './Utils/ScrollToTop';
 
+//add font awesome and lazy loading for image?
+
 function App() {
   return (
     <ThemeProvider theme={theme}>

@@ -11,48 +11,6 @@ from { margin-right : -200vw; }
 to { margin-right : 0; }
 `
 
-// const shake = keyframes`
-//   10% {
-//     transform: translateX(3px) rotate(2deg);
-//   }
-
-//   20% {
-//     transform: translateX(-3px) rotate(-2deg);
-//   }
-
-//   30% {
-//     transform: translateX(3px) rotate(2deg);
-//   }
-
-//   40% {
-//     transform: translateX(-3px) rotate(-2deg);
-//   }
-
-//   50% {
-//     transform: translateX(2px) rotate(1deg);
-//   }
-
-//   60% {
-//     transform: translateX(-2px) rotate(-1deg);
-//   }
-
-//   70% {
-//     transform: translateX(2px) rotate(1deg);
-//   }
-
-//   80% {
-//     transform: translateX(-2px) rotate(-1deg);
-//   }
-
-//   90% {
-//     transform: translateX(1px) rotate(0);
-//   }
-
-//   100% {
-//     transform: translateX(-1px) rotate(0);
-//   }
-// `
-
 const StyledSection = styled.div`
   display: flex;
   flex-direction: column-reverse;
@@ -69,7 +27,6 @@ const StyledSection = styled.div`
 
   h1 {
     padding-top: 1.5em;
-    // padding-left: 3rem;
     text-align: left;
     max-width: 430px;
     font-weight: 300;
@@ -79,9 +36,7 @@ const StyledSection = styled.div`
   } 
   h3 {
     padding-bottom: 2em;
-    // padding-left: 3rem;
     text-align: left;
-    min-width: 400px;
     max-width: 430px;
     font-weight: 300;
   } 
@@ -92,6 +47,7 @@ const StyledSection = styled.div`
   }
   
   @media (min-width: 768px) { 
+    
   }
   
   @media (min-width: 992px) { 
@@ -118,7 +74,7 @@ const StyledPicture = styled.img`
 `
 
 const StyledContent = styled.div`
-
+padding: 0px 2em;
 @media (min-width: 992px) {
   margin-right: 6rem;
 }

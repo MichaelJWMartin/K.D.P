@@ -52,12 +52,12 @@ export const GlobalStyles = createGlobalStyle`
     width: 100%;   
   }
 
- .gradient_bg {
+  .gradient_bg {
     position: absolute;
     height: 100vh;
     width: 100vw;
     z-index: -1;
     mix-blend-mode: hue;
     background-image: url(/src/media/gradientBG.png);
- }
+  }
 `

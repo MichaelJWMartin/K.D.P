@@ -20,11 +20,11 @@ const StyledHero = styled.div`
 
   h1 {
     margin: auto;
+    display: flex;
     max-width: 1080px;
     font-family: Lato;
-    font-size: 128px;
+    font-size: 75px;
     font-weight: 700;
-    line-height: 154px;
     letter-spacing: 0em;
     text-transform: uppercase;
   } 
@@ -32,11 +32,11 @@ const StyledHero = styled.div`
     margin: auto;
     max-width: 1080px;
     font-family: Lato;
-    font-size: 21px;
+    font-size: 12px;
     font-weight: 700;
-    line-height: 25px;
     letter-spacing: 0em;
     text-transform: uppercase;
+    text-align: center;
   } 
 
   p {
@@ -44,8 +44,13 @@ const StyledHero = styled.div`
     font-size: 1.3em;
   }
   
-  @media (min-width: 576px) { 
-    
+  @media (min-width: 496px) { 
+    h1 {
+      font-size: 128px;
+    }
+    h3 {
+      font-size: 20px;
+    }
   }
   
   @media (min-width: 768px) { 
