@@ -10,7 +10,6 @@ const StyledHero = styled.div`
   background-color: ${props => props.lava ? '' : 'theme.darkBackground'};
   justify-content: center;
   align-content: center;
-  max-height: 80vh;
   animation: ${slideRight} 1s;
 
   small {

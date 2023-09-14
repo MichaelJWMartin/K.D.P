@@ -9,7 +9,7 @@ const StyledFeatures = styled.div`
   display: flex;
   flex-direction: column;
   margin: auto;
-  padding: 0 1rem;
+  padding: 0 1rem 4rem 1rem;
 `
 
 const StyledTitle = styled.h1`

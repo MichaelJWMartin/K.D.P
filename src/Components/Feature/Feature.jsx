@@ -16,13 +16,18 @@ const StyledFeature = styled.div`
   @media (min-width: 992px) { 
     flex-direction: row;
   }
+
+  &:hover {
+    scale: 1.01;
+  }
 `
-//remove image under 400 pixels? or 380?
+
 const StyledImg = styled.div`
   height: 379px;
   background: white;
   margin: auto 0;
   min-width: 379px;
+  aspect-ratio: 1/1;
 
   img {
     height: 100%;
@@ -36,9 +41,9 @@ const StyledImg = styled.div`
 
   @media (min-width: 992px) { 
     min-width: 561px;
+    aspect-ratio: 16/9;
   }
 `
-// ${({ theme }) => theme.size.mobileL}
 
 const StyledContent = styled.div`
   display: flex;

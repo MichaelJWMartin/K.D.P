@@ -22,14 +22,13 @@ export const GlobalStyles = createGlobalStyle`
   body {
     display: flex;
     color: ${({ theme }) => theme.primaryDark};
-    background-colur: ${({ theme }) => theme.lightBackground};
     text-rendering: optimizeLegibility;
     font-family: Lato, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   }
 
   .header {
     width: 100vw;
-    height: 91vh;
+    height: calc(100vh - 76px);
   }
 
   img {
@@ -57,7 +56,30 @@ export const GlobalStyles = createGlobalStyle`
     height: 100vh;
     width: 100vw;
     z-index: -1;
+    aspect-ratio: 1 / 1;
     mix-blend-mode: hue;
-    background-image: url(/src/media/gradientBG.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .blur-load {
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    z-index: -2;
+    aspect-ratio: 1 / 1;
+    mix-blend-mode: hue;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  .blur-load.loaded > img {
+    opacity: 1;
+  }
+  
+  .blur-load.loaded {
+    opacity: 0;
   }
 `

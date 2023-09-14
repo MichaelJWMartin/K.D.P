@@ -1,9 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 
 import { Logo } from '../Logo/Logo';
-import linkedIn from '../../media/linkedin-icon.svg';
 
 
 const StyledNav = styled.div`
@@ -13,58 +15,39 @@ const StyledNav = styled.div`
 	align-items: center;
 	padding: 0.5rem 5rem 0.5rem 5rem;
 	width: 100vw;
+	color: #FFF4D7;
 
 	a {
 		color: #FFF4D7;
 		text-decoration: inherit;
+	}
 
-		img {
-			width: 22px;
-			height: 22px;
-		}
+	.icon {
+		color: #FFF4D7;
+		width: 25px;
+		height: 25px;
+		padding-right: 10px;
 	}
 `
 
 const StyledNavPages = styled.div`
 	display: flex;
-  flex-direction: row;
+	flex-direction: row;
 `
 
-// const StyledEmailMe = styled.div`
-// 	color: #FFF4D7;
-// 	display: flex;
-// 	justify-content: flex-end;
-// 	align-items: center;
-// 	margin-right: 4rem;
-// 	text-transform: uppercase;
-// 	cursor: pointer;
-
-// 	&:hover {
-//     -webkit-transform:scale(1.2);
-// 	}
-// `
-
-// const StyledEmailForm = styled.div`
-// 	display: flex; 
-// 	background-color: ${({theme}) => theme.navbar};
-// `
-
 export const NavBar = () => {
-
-	// const [formOpen, setFormOpen] = useState(false);
-
-	// function handleOnClick() { 
-	// 	console.info(formOpen);
-	// 	setFormOpen(!formOpen)
-	// }
-
 	return ( 
 		<StyledNav className='navbar-container'>
 			<Link to="/">
 				<Logo />
 			</Link>
 			<StyledNavPages className='navbar-info-list'>
-				<a href='https://uk.linkedin.com/in/kirsten-donnachie-23584951'><img src={linkedIn} alt='linked in icon'/></a>
+				<a href='https://uk.linkedin.com/in/kirsten-donnachie-23584951'>
+					<FontAwesomeIcon icon={faLinkedin} className='icon' />
+				</a>
+				{/* <a href='https://uk.linkedin.com/in/kirsten-donnachie-23584951'>
+					<FontAwesomeIcon icon={faEnvelope} className='icon'/>
+				</a> */}
 			</StyledNavPages>
 		</StyledNav>
 	);

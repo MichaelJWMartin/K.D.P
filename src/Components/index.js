@@ -8,6 +8,7 @@ export { LavaLamp } from './LavaLamp/LavaLamp';
 export { Button } from './Button/Button';
 export { AboutSection } from './AboutSection/AboutSection';
 export { Feature } from './Feature/Feature';
+export { Footer } from './Footer/Footer';
 export { Tile } from './Tile/Tile';
 export { Random } from './Random/Random';
 export { ProjectOverview } from './ProjectOverview/ProjectOverview';
