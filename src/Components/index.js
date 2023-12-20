@@ -1,6 +1,7 @@
 export { Logo } from './Logo/Logo';
 export { Menu } from './Menu/Menu';
 export { NavBar } from './NavBar/NavBar';
+export { Modal } from './Modal/Modal';
 export { DesktopCard } from './DesktopCard/DesktopCard';
 export { MobileCard } from './MobileCard/MobileCard';
 export { Hero } from './Hero/Hero';
@@ -18,3 +19,4 @@ export { Sketches } from './Sketches/Sketches';
 export { JourneyMap } from './JourneyMap/JourneyMap';
 export { BasicInfo } from './BasicInfo/BasicInfo';
 export { Image } from './Image/Image';
+export { Form } from './Form/Form';

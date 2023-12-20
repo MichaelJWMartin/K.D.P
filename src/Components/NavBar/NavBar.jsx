@@ -20,13 +20,23 @@ const StyledNav = styled.div`
 	a {
 		color: #FFF4D7;
 		text-decoration: inherit;
+		margin-right: 15px;
 	}
 
 	.icon {
-		color: #FFF4D7;
-		width: 25px;
-		height: 25px;
-		padding-right: 10px;
+		color: ${({theme}) => theme.lightYellow};
+		width: 24px;
+		height: 24px;
+	}
+
+	button {
+		background: none;
+		color: inherit;
+		border: none;
+		padding: 0;
+		font: inherit;
+		cursor: pointer;
+		outline: inherit;
 	}
 `
 
@@ -35,7 +45,12 @@ const StyledNavPages = styled.div`
 	flex-direction: row;
 `
 
-export const NavBar = () => {
+export const NavBar = ({setIsEmailModalOpen}) => {
+
+	// const handleModalOpen = () => {
+	// 	setIsEmailModalOpen()
+	// }
+
 	return ( 
 		<StyledNav className='navbar-container'>
 			<Link to="/">
@@ -45,9 +60,9 @@ export const NavBar = () => {
 				<a href='https://uk.linkedin.com/in/kirsten-donnachie-23584951'>
 					<FontAwesomeIcon icon={faLinkedin} className='icon' />
 				</a>
-				{/* <a href='https://uk.linkedin.com/in/kirsten-donnachie-23584951'>
+				<button onClick={setIsEmailModalOpen}>
 					<FontAwesomeIcon icon={faEnvelope} className='icon'/>
-				</a> */}
+				</button>
 			</StyledNavPages>
 		</StyledNav>
 	);

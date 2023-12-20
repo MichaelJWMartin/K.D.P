@@ -5,7 +5,7 @@ import { ThemeProvider } from 'styled-components';
 import { GlobalStyles } from './GlobalStyles/global';
 import { theme } from './GlobalStyles/theme';
 import { Main, ProjectUXDesign, CCLProjectCatalogue } from './Containers';
-import { ScrollToTop } from './Utils/ScrollToTop';
+import { ScrollToTop } from './Utils';
 
 function App() {
   return (
